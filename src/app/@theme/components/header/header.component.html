@@ -3,13 +3,9 @@
     <a (click)="toggleSidebar()" href="#" class="sidebar-toggle">
       <nb-icon icon="menu-2-outline"></nb-icon>
     </a>
-    <a class="logo" href="#" (click)="navigateHome()">ngx-<span>admin</span></a>
   </div>
-  <nb-select [selected]="currentTheme" (selectedChange)="changeTheme($event)" status="primary">
-    <nb-option *ngFor="let theme of themes" [value]="theme.value"> {{ theme.name }}</nb-option>
-  </nb-select>
 </div>
-
+<!-- 
 <div class="header-container">
   <nb-actions size="small">
 
@@ -25,5 +21,5 @@
                [picture]="user?.picture">
       </nb-user>
     </nb-action>
-  </nb-actions>
+  </nb-actions> -->
 </div>
